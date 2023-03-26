@@ -35,7 +35,7 @@
             android:configChanges="orientation|screenSize" />
         <activity
             android:name=".SettingsActivity"
-            android:configChanges="orientation|screenSize"></activity>
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name=".MemoryLimitActivity"
             android:windowSoftInputMode="adjustResize" />

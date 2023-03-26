@@ -12,7 +12,7 @@
         >
     </FrameLayout>
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -88,6 +88,7 @@
             android:id="@+id/toggleAudio"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:contentDescription="@string/app_name"
             android:layout_marginBottom="30dp"
             android:onClick="toggleMicrophone"
             android:src="@drawable/microphone_music_sound_icon" />
